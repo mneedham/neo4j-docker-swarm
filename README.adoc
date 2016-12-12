@@ -1,6 +1,6 @@
 = Neo4j on Docker Swarm
 
-This is a first attempt at getting Neo4j 3.1 to run on Docker Swarm.
+This is a first attempt at getting Neo4j 3.1 to run on link:https://www.docker.com/products/docker-swarm[Docker Swarm].
 
 You can either setup Docker Swarm locally using link:https://docs.docker.com/engine/swarm/swarm-tutorial/create-swarm//[docker-machine] or on one of the cloud providers e.g. link:https://docs.docker.com/swarm/install-manual/[AWS]
 
