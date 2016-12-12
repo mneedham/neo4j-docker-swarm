@@ -54,7 +54,7 @@ $ docker service create \
 ```
 
 Docker exposes a special DNS name `tasks.<service-name>` (e.g. `tasks.neo`) which lets us access all our instances IPs.
-We can then do an `nslookup` on that DNS name to get a list of those IPs and pass it to Neo4j as its initial discovery members.
+We can then do an `nslookup` on that DNS name to get a list of those IPs and (after a bit of Unix hackery) pass it to Neo4j as its initial discovery members.
 
 Run the following command to see the servers we've just created:
 
